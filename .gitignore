@@ -1,0 +1,67 @@
+# ROS 2 Build Artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+*.so
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+*.directory
+
+# Colcon
+.colcon/
+
+# ROS bags
+*.bag
+*.db3
+*.bag.active
+*.bag.lock
+
+# Compiled files
+*.o
+*.a
+*.dSYM/
+*.gcno
+*.gcda
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Temporary
+*.tmp
+*.bak
+*.orig
+
+# Catkin (legacy)
+devel/
+logs/
+
+# Untitled documents (personal notes)
+Untitled Document*
